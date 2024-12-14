@@ -5,8 +5,8 @@ public static int occur(int arr[],int key, int i) {
     }
     if(arr[i]==key){
     return i;
+    
     }
-
     return occur(arr, key, i+1);
     
 }
